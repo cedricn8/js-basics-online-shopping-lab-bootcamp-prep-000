@@ -89,5 +89,5 @@ function placeOrder(cardNumber) {
     message = "Sorry, we don't have a credit card on file for you."
   }
   cart = [];
-  return message;
+  console.log(message);
 }
