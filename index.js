@@ -66,19 +66,19 @@ function removeFromCart(item) {
     if (cart[i].hasOwnProperty(item)) {
       // delete (cart[i])[item]
       itemfound = true;
-    } 
+    }
     else {
       newcart.push(cart[i]);
-    } 
-  }  
+    }
+  }
   if (itemfound === false) {
     console.log("That item is not in your cart.")
   }
   else {
-   cart = newcart; 
+   cart = newcart;
    return cart;
   }
-}  
+}
 
 function placeOrder(cardNumber) {
   // write your code here
