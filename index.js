@@ -82,7 +82,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   var message = "";
-  if (cardNumber <> "" ) {
+  if (cardNumber != "" ) {
     message = `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`
   }
   else {
